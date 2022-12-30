@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="/Users/dbooker/Desktop/muahapp/styles css/styles2.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <script src="https://kit.fontawesome.com/b44a89f970.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muah Social App - Explore your Beauty</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img class="logo" src="/Users/dbooker/Desktop/muahapp/images-2/Screen Shot 2022-12-11 at 7.03.03 PM.png">
+            <ul>
+                <li><img src="/Users/dbooker/Desktop/muahapp/images-2/notification.png"></li>
+                <li><img src="/Users/dbooker/Desktop/muahapp/images-2/show-more.png"></li>
+                <li><img src="/Users/dbooker/Desktop/muahapp/images-2/upload.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img class="pinksearch2" src="/Users/dbooker/Desktop/muahapp/images-2/pinksearch2.png">
+                <input type="text" placeholder="Search"></input>
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img class="pinkprofile" src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                    <div>
+                        <p>Jane Doe</p>
+                        <a>See your profile</a>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a>Help us to improve the new design</a>
+                    </div>
+
+                </div>
+
+                <hr>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/Users/dbooker/Desktop/muahapp/images-2/more.png">
+                    <a>Settings & Privacy <img src="/Users/dbooker/Desktop/muahapp/images-2/show-more.png"
+                            width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/Users/dbooker/Desktop/muahapp/images-2/menu.png">
+                    <a>Help & Support <img src="/Users/dbooker/Desktop/muahapp/images-2/show-more.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/Users/dbooker/Desktop/muahapp/images-2/library.png">
+                    <a>Display & Accessibility <img src="/Users/dbooker/Desktop/muahapp/images-2/show-more.png"
+                            width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/Users/dbooker/Desktop/muahapp/images-2/share.png">
+                    <a>Logout <img src="/Users/dbooker/Desktop/muahapp/images-2/show-more.png" width="10px"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="container">
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img class="pinkexplore"
+                        src="/Users/dbooker/Desktop/muahapp/images-2/pinkexplore.png">Explore</a>
+                <a href="#"><img class="pinkbolt"
+                        src="/Users/dbooker/Desktop/muahapp/images-2/pinkbolt.png">Trending</a>
+                <a href="#"><img class="pinkbrand"
+                        src="/Users/dbooker/Desktop/muahapp/images-2/pinkbrand.png">Brands</a>
+                <a href="#"><img class="pinklike" src="/Users/dbooker/Desktop/muahapp/images-2/pinklike.png">Shop</a>
+                <hr>
+                <div class="recommended">
+                    <h2>Reccommended For You</h2>
+                    <a><img class="sidebarFb" src="/Users/dbooker/Desktop/muahapp/images-2/fentybeauty.png">
+                        <p>Fenty Beauty Blush Powder Review</p>
+                    </a>
+                    <a><img class="sidebarkylie" src="/Users/dbooker/Desktop/muahapp/images-2/kylieReview.png">
+                        <p>Kylie Matte Lip Kit Review</p>
+                    </a>
+                    <a><img class="sidebardior" src="/Users/dbooker/Desktop/muahapp/images-2/diorReview.png">
+                        <p>Dior BACKSTAGE Face & Body Review</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/plus.png">
+                    <p>Create</p>
+                </div>
+                <div class="story story2">
+                    <img class="pinkupload" src="/Users/dbooker/Desktop/muahapp/images-2/tom.png">
+                    <p>jane doe</p>
+                </div>
+                <div class="story story3">
+                    <img class="pinkupload" src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                    <p>jane doe</p>
+                </div>
+                <div class="story story4">
+                    <img class="pinkupload" src="/Users/dbooker/Desktop/muahapp/images-2/simon.png">
+                    <p>jane doe</p>
+                </div>
+                <div class="story story5">
+                    <img class="pinkupload" src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                    <p>jane doe</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                    <div>
+                        <p>Jane Doe</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Post your content here, Jane!"></textarea>
+                    <div class="add-post-links">
+                        <a href=""><img src="/Users/dbooker/Desktop/muahapp/images-2/upload.png">Live Video</a>
+                        <a href=""><img src="/Users/dbooker/Desktop/muahapp/images-2/more.png">Upload Video</a>
+                        <a href=""><img src="/Users/dbooker/Desktop/muahapp/images-2/share.png">Share</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+
+                    <div class="user-profile">
+                        <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                        <div>
+                            <p>Jane Doe</p>
+                            <span>14 Hours ago</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Trying Fenty Beauty Highlight- Follow<span> @NovaBeauty </span><a
+                        href="#">#FentyBeauty</a><a href="#">#ExplorePage
+                    </a></p>
+                <img class="post-img" src="/Users/dbooker/Desktop/muahapp/images-2/video.png">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/history.png">120</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/like.png">45</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/share.png">20</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+
+
+                    <div class="user-profile">
+                        <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                        <div>
+                            <p>Mary Jane</p>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Kylie Holiday Lipkit<span> @Nancy </span><a href="#">#KylieCosmetics</a><a
+                        href="#">#ExplorePage
+                    </a></p>
+                <img class="post-img" src="/Users/dbooker/Desktop/muahapp/images-2/video.png">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/history.png">220</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/like.png">20</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/share.png">15</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+
+
+                    <div class="user-profile">
+                        <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                        <div>
+                            <p>John Doe</p>
+                            <span>3 days ago</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Sephora Make Up Haul<span> @sandy </span><a href="#">#Sephora</a><a
+                        href="#">#ExplorePage
+                    </a></p>
+                <img class="post-img" src="/Users/dbooker/Desktop/muahapp/images-2/video.png">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/history.png">150</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/like.png">16</div>
+                        <div><img src="/Users/dbooker/Desktop/muahapp/images-2/share.png">17</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+
+
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4> Sephora Convention</h4>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Miami convention Center</p>
+                    <a href="">more Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>29</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4> Ulta Grand opening</h4>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Miami FL</p>
+                    <a href="">more Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img class="sidebar-ads" src="/Users/dbooker/Desktop/muahapp/images-2/thumbnail3.png">
+            <div class="sidebar-title">
+                <h4>Following</h4>
+                <a href="#">See More</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                </div>
+                <p>Jane Doe</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img class="onlinepic" src="/Users/dbooker/Desktop/muahapp/images-2/wingeyeliner.png">
+                </div>
+                <p>Jane Doe</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="/Users/dbooker/Desktop/muahapp/images-2/megan.png">
+                </div>
+                <p>Jane Doe</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2022 - Muah Beauty App</p>
+    </div>
+
+
+    <script src="script2.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
